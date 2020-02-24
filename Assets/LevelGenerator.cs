@@ -3,6 +3,7 @@
 public class LevelGenerator : MonoBehaviour
 {
 
+    //deklarasi variabel
     public GameObject platformPrefab;
     public GameObject monsterHijau;
     public GameObject merah;
@@ -18,10 +19,13 @@ public class LevelGenerator : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        //memberi vektor 3 pada posisi spawnplatform, spawn pmonster
         Vector3 spawnPosition = new Vector3();
         Vector3 monsterPosition = new Vector3();
         Vector3 merahposition = new Vector3();
 
+
+        ///membuat platform sebanyak yang diinginkan ( input user )
         for (int i = 0; i < numberOfPlatforms; i++)
         {
             myRandom = Random.Range(0, 101);
