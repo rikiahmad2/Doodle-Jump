@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/DoodleJump.unity
+  isLoaded: 1
+  isActive: 1
