@@ -4,4 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/test.unity
+    guid: 4a3d46b315d981947b22d97025c320b0
+  - enabled: 1
+    path: Assets/DoodleJump.unity
+    guid: e202a1b8df1fcf843906e27fed08d731
+  m_configObjects: {}
